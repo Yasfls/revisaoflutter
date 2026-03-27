@@ -25,6 +25,8 @@ class _HomeScreenState extends State<HomeScreen> {
         Habito('Beber água', 'Preciso tomar água'),
         Habito('Estudar', 'Matemática'),
         Habito('Academia', 'Puxar ferro'),
+        Habito('Fazer o almoço', 'Arroz e frango'),
+        Habito('Alongar', 'esticar kkkkkk'),
       ];
       carregando = false;
     });
@@ -42,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Meus Hábitos'),
+        title: const Text('Controle de Hábitos'),
         backgroundColor: const Color.fromARGB(255, 136, 127, 189),
         titleTextStyle: TextStyle(color: Colors.white),
       ),
